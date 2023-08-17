@@ -1,6 +1,6 @@
 import React from 'react'
 import reactic from '../images/reactic.png'
-import nodeic from '../images/nodeic.png'
+//import nodeic from '../images/nodeic.png'
 import tailwindic from '../images/tailwindic.png'
 import javascriptic from '../images/javascriptic.png'
 import githubic from '../images/githubic.png'
