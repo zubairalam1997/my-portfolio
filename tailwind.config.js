@@ -5,6 +5,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       signature:["Great Vibes"],
+      playfair :['Cormorant '],
+      lobster:['Lobster'],
     },
   },
   plugins: [],

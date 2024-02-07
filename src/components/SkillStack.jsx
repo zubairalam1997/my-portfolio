@@ -4,10 +4,9 @@ import nodeic from '../images/nodeic.png'
 import tailwindic from '../images/tailwindic.png'
 import javascriptic from '../images/javascriptic.png'
 import githubic from '../images/githubic.png'
-import htmlic from '../images/htmlic.png'
-import css from '../images/css.png'
 import cpplus from '../images/cpplus.png'
 import mongo from '../images/mongo.png'
+import Firebaseicon from '../images/Firebaseicon.png'
 import pyLogo from '../images/pyLogo.jpg'
 
 const SkillStack = () => {
@@ -15,27 +14,29 @@ const SkillStack = () => {
     const techs = [
         {
           id: 1,
-          src: htmlic,
-          title: "HTML",
-          style: "shadow-orange-500",
-        },
-        {
-          id: 2,
-          src: css,
-          title: "CSS",
-          style: "shadow-blue-500",
-        },
-        {
-          id: 3,
-          src: javascriptic,
-          title: "JavaScript",
-          style: "shadow-yellow-500",
-        },
-        {
-          id: 4,
           src: reactic,
           title: "React",
           style: "shadow-blue-600",
+         
+        },
+        {
+          id: 2,
+          src: javascriptic,
+          title: "JavaScript",
+          style: "shadow-yellow-500",
+          
+        },
+        {
+          id: 3,
+          src: nodeic,
+          title: "Node.js",
+          style: "shadow-green-400",
+        },
+        {
+          id: 4,
+          src: Firebaseicon,
+          title: "Firebase",
+          style: "shadow-yellow-500",
         },
         {
           id: 5,
@@ -58,21 +59,22 @@ const SkillStack = () => {
         {
           id: 8,
           src: pyLogo,
-          title: "python",
-          style: "shadow-gray-400",
+          title: "PYTHON",
+          style: "shadow-orange-500",
+          
         },
         {
             id: 9,
             src: cpplus,
             title: "cpp",
-            style: "shadow-gray-400",
+            style: "shadow-purple-400",
           },
       ];
     
       return (
         <div
           name="SkillStack"
-          className="box-content pt-12 bg-gradient-to-b from-gray-800 to-black w-full h-screen p-4"
+          className="box-content pt-14 bg-gradient-to-b from-gray-800 to-black max-w-full md:h-screen p-4"
         >
           <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
             <div>
